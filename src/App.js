@@ -8,12 +8,15 @@ const App = () => {
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/Dashboard">
             <Dashboard />
           </Route>
           <Route path="/comments">
             <Comments />
           </Route>
+		  <Route path="/">
+		    <Dashboard />
+		  </Route>
         </Switch>
       </Router>
     </div>
