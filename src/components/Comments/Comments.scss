@@ -1,0 +1,42 @@
+.comments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  img {
+    width: 600px;
+  }
+  .comments-section {
+    margin-left: 50px;
+    .comment {
+      margin-bottom: 20px;
+      border: 2px solid #3f72af;
+      padding-left: 10px;
+      border-radius: 15px;
+    }
+    .user {
+      font-weight: 600;
+    }
+    .form {
+      margin-bottom: 50px;
+      input {
+        height: 30px;
+        border-radius: 10px;
+      }
+      button {
+        margin-left: 20px;
+        background: linear-gradient(to bottom, #33679e 5%, #5c81a8 100%);
+        background-color: #33679e;
+        border-radius: 18px;
+        border: 1px solid #112e4e;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 17px;
+        padding: 6px 20px;
+        text-decoration: none;
+      }
+    }
+  }
+}
