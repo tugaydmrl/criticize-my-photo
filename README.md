@@ -5,3 +5,4 @@
 npm install
 npm start
 ```
+But you can see on browser at https://tugaydmrl.github.io/criticize-my-photo/
